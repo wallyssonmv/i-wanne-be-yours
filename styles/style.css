@@ -1,0 +1,126 @@
+@import url(/styles/root.css);
+
+body {
+    background-color: var(--cor-bg);
+    font-family: var(--fonte);
+}
+
+main {
+    margin: 8%;
+
+}
+
+span {
+    background-image: linear-gradient(to bottom, var(--cor-primaria), var(--cor-secundaria));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.retangle {
+    position: absolute;
+    display: flex;
+    right: 0;
+    top: 6em;
+    margin-top: 5em;
+    margin-left: 0;
+    z-index: 2;
+}
+
+.purple__space {
+    background-color: blueviolet;
+    padding: 5em;
+    width: 10em;
+    height: 5em;
+    margin-left: 0;
+}
+
+.headline {
+    margin: 20% 0;
+    display: flex;
+    z-index: 1;
+    position: relative;
+}
+
+.texto__headline {
+    width: 60%;
+}
+
+.titulo__headline {
+    font-weight: 600;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.conteudo__headline {
+    font-size: 20px;
+}
+
+.carta {
+    display: flex;
+    margin-bottom: 7em;
+    gap: 10%;
+    justify-content: flex-start;
+}
+
+.carta__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 50%;
+}
+
+.carta__imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.carta__01, .carta__03 {
+    flex-direction: row-reverse;
+}
+
+.imagem__02{
+    width: 50em;
+}
+
+.carta__imagem__conteudo {
+    width: 35em;
+}
+
+.icone__carta {
+    width: 3.4em;
+}
+
+.carta__titulo {
+    font-size: 2em;
+    color: var(--cor-secundaria);
+}
+
+.carta__texto{
+    text-indent: 25px;
+}
+
+.ending {
+
+    display: flex;
+    justify-content: center;
+}
+
+.ending__conteudo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+}
+
+.imagem__chibi__conteudo {
+    width: 25em;
+}
+
+.carta_final {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
